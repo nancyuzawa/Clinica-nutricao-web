@@ -1,0 +1,35 @@
+*{
+    margin: 0.2rem;
+    border: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #2b2823;
+}
+
+header > h1{
+    background-color: #2b2823;
+    color: #f9fadc;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    margin: 1.5rem 0;
+}
+
+input, label{
+    font-size: 1.2rem;
+}
+
+#id-nome, #id-peso, #id-altura, #id-por-gordura{
+    margin-top: 1rem;
+    border: none;
+    border-bottom:  2px solid #2b2823;
+}
+
+#id-nome{
+    width: 100%;
+}
+
+
