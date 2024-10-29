@@ -1,5 +1,3 @@
-<!-- https://paletadecores.com/paleta/2b2823/8fa691/d4ceaa/f9fadc/cc3917/ -->
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -26,26 +24,67 @@
     <main>
         <h2>Adicionar novo paciente</h2>
         <form name="formulario">
-            <label for="nome">
-                Nome: 
-                <input type="text" name="nome" id="id-nome">
-            </label>
-            <label for="peso">
-                Peso:
-                <input type="text" name="peso" id="id-peso">
-            </label>
-            <label for="altura">
-                Altura:
-                <input type="text" name="altura" id="id-altura">
-            </label>
-            <label for="por-gordura">
-                % de Gordura
-                <input type="text" name="por-gordura" id="id-por-gordura">
-            </label>
-            <label for="adicionar">
-                <input type="submit" value="Adicionar">
+            <div class="input-dados">
+
+                <label for="nome">
+                    Nome
+                    <input type="text" name="nome" id="nome">
+                </label>
+                <div class="input-informacao">
+                    <label for="peso">
+                        Peso
+                        <input type="text" name="peso" id="peso">
+                    </label>
+                    <label for="altura">
+                        Altura
+                        <input type="text" name="altura" id="altura">
+                    </label>
+                    <label for="por-gordura">
+                        % de Gordura
+                        <input type="text" name="por-gordura" id="por-gordura">
+                    </label>
+                </div>
+            </div>
+            <label for="btnAdicionar">
+                <input type="submit" value="Adicionar" id="btnAdicionar">
             </label>
         </form>
+        <div class="divisoria"></div>
+        <div>
+            <h2>Meus Pacientes</h2>
+            
+            <table>
+                <tr class="cabecalhoTabela dadosTabela">
+                    <td class="textoCabecalho">NOME</td>
+                    <td class="textoCabecalho">PESO(kg)</td>
+                    <td class="textoCabecalho">ALTURA(m)</td>
+                    <td class="textoCabecalho">ORDURA CORPORAL(%)</td>
+                    <td class="textoCabecalho">IMC</td>
+                </tr>
+                <tr class="dadosTabela">
+                    <td>Maria Silva</td>
+                    <td class="dadoAlinhado">65 kg</td>
+                    <td class="dadoAlinhado">1,68 m</td>
+                    <td>22%</td>
+                    <td>42.5</td>
+                </tr>
+                <tr class="dadosTabela">
+                    <td>João Pereira</td>
+                    <td class="dadoAlinhado">82 kg</td>
+                    <td class="dadoAlinhado">1,75 m</td>
+                    <td>18%</td>
+                    <td>41.5</td>
+                </tr>
+                <tr class="dadosTabela">
+                    <td>Ana Costa</td>
+                    <td class="dadoAlinhado">55 kg</td>
+                    <td class="dadoAlinhado">1,60 m</td>
+                    <td>25%</td>
+                    <td>74.5</td>
+                </tr>
+                                                
+            </table>
+        </div>
     </main>
 </body>
 </html>
