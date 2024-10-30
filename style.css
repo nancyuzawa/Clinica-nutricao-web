@@ -2,14 +2,11 @@
     padding: 0;
     margin: 0;
     font-family: "Roboto Condensed", sans-serif;
-    /* width: 100vw; */
     color: #2b2823;
-
 }
 
 body{
     margin: .5rem 2rem 1.5rem 2rem;
-    /* border: 1px solid black; */
     padding: 1rem 3rem;
     border-radius: 5px;
 }
@@ -35,23 +32,16 @@ input, label{
 
 #nome, #peso, #altura, #por-gordura{
     margin-top: 1rem;
-    /* border: none; */
-    /* border-bottom:  2px solid #2b2823; */
 }
+
 #nome{
     width: 100%;
     margin-bottom: 1.5rem;
 }
 
 #peso, #altura, #por-gordura{
-    /* margin-top: 2rem; */
     width: 100%;
     margin-bottom: 2rem;
-}
-
-.input-dados {
-    /* width: 10vw; */
-    /* flex-wrap: wrap; */
 }
 
 .input-informacao{
@@ -107,39 +97,46 @@ form > label{
     background-color: #2b2823bb;
     border-radius: 7px;
     margin: 2rem 0;
-
 }
-
 
 /* Estilizando a tabela */
 table, td, th{
     width: 100%;
-    border: 1px solid;
-}
-
-/*table{
-    border: 2px solid #8fa691;
-    border-radius: 5px;
-    padding: 1rem;
-    width: 100%;
-}
-
-.dadosTabela{
+    border: 1px solid #637a65;
+    border-collapse: collapse;
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    color: #364d38;
 }
-.cabecalhoTabela{
-    font-weight: 800;
-    border-bottom: 1.5px solid #8fa691;
-    padding-bottom: 1rem;
+
+table{
+    border: 1.5px solid #637a65;
+    border-radius: 7px;
+}
+    
+.dadosTabela{
+    display: grid;
+    grid-template-columns: 5fr 2fr 1.5fr 2fr 1fr;
+}
+td{
+    width: auto;
+    padding-left: .5rem;
+    height: 2.5rem;
 }
 
 .textoCabecalho{
-    color: #8fa691;
-
+    font-weight: 700;
+    height: 3.7rem;
+    background-color: #8fa691;
+    color: #f9fadc;
+    border: 1px solid #637a65;
 }
 
-.dadoAlinhado{
-    text-align: center;
-}*/
+td {
+    word-break: break-word; /*Para que o texto do cabeçalho quebre quando diminuido o tamanho da tela*/
+}
+
+.dadosTabela:nth-child(odd){ /* Cor para linhas ímpares */
+    background-color: #8fa69144;
+}
