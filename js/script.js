@@ -9,7 +9,7 @@ document.getElementById("btnAdicionar").addEventListener("click", function(event
   
     // Validar os dados de entrada do usuário
     if (nome === "") {
-        alert("Coloque o nome");
+        alert("Adicione um nome!");
     } else if (isNaN(peso) || isNaN(altura) || isNaN(gorduraCorporal)) {
         alert("Apenas coloque números nos campos de peso, altura e gordura corporal!");
     } else {
