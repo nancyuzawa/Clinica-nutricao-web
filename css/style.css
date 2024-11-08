@@ -74,7 +74,7 @@ input{
 
 input[type="submit"]{
     height: 2.5rem;
-    width: 15rem;
+    width: 100%;
     background-color: #d4ceaa;
     border: none;
     border-radius: 5px;
@@ -85,6 +85,16 @@ input[type="submit"]{
 input[type="submit"]:hover{
     background-color: #8fa691;
     color: #f9fadc;
+}
+
+.campo-botao > label{
+    width: 100%;
+}
+
+.campo-botao{
+    display: flex;
+    flex-direction: row;
+    gap: .8rem;
 }
 
 form > label{
