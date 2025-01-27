@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">  
-	<a href="#sobre">Sobre</a> • <a href="#demo">Demonstração da aplicação</a> 
+	<a href="#sobre">Sobre</a> • <a href="#tecnologias">Tecnologias</a> • <a href="#demo">Demonstração da aplicação</a> 
 </p>
 
 <h2 id="sobre">
@@ -32,6 +32,15 @@
 <p>
   Objetivo: cadastramento dos dados do paciente (nome, peso, alltura e % de gordura corporal) para mostrar na tabela juntamente com seu respectivo IMC. 
 </p>
+<h2 id="tecnologias">
+	Tecnologias
+</h2>
+<ul>
+	<li>Html</li>
+	<li>Css</li>
+	<li>JavaScript</li>
+	<li>Requisições HTTP com XMLHttpRequest (manipulando XML)</li>
+</ul>
 
 <h2 id="demo">
 	Demonstração da aplicação
